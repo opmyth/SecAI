@@ -1,9 +1,8 @@
-from transformers import Speech2TextProcessor, Speech2TextForConditionalGeneration
+from openai import OpenAI
 import numpy as np
 
 def speech_to_text(audio_path):
     try:
-        from openai import OpenAI
         client = OpenAI()
         
         with open(audio_path, "rb") as audio_file:

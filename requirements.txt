@@ -1,6 +1,5 @@
 gradio
 openai
-transformers
 numpy
 Pillow
 PyPDF2
