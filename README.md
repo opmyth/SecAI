@@ -2,7 +2,7 @@
 
 **Team Members:**
 - Bassam Alshammari
-- Hassan Alshaniti
+- Hassan Alshanqiti
 
 ## Description
 secAI is an AI-powered secretary that helps manage your tasks using voice commands or hand gestures. It can handle three main tasks:
