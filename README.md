@@ -39,7 +39,7 @@ secAI is an AI-powered secretary that helps manage your tasks using voice comman
 
 ### 1. Clone the Repository
 ```bash
-git clone [repository-url]
+git clone https://github.com/opmyth/SecAI
 cd secAI
 ```
 
