@@ -52,5 +52,3 @@ def process_gesture(image):
     except Exception as e:
         print(f"Error processing image: {str(e)}")
         return 0
-    
-# print(process_gesture(Image.open('/Users/hasan/Desktop/sdaia_bootcamp/secAI/image.jpg')))

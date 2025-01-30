@@ -26,5 +26,3 @@ def get_llm_output(prompt: str, task_type: str) -> str:
         
     except Exception as e:
         return f"Error occurred while getting LLM output: {str(e)}"
-
-print(get_llm_output("Hello, how are you?", "task_classifier"))

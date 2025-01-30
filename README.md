@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ### 3. API Setup
 
-#### OpenAI API
+#### OpenAI API or deepseek API
 1. Get your OpenAI API key from [OpenAI Platform](https://platform.openai.com/)
 2. Set it as an environment variable:
 ```bash

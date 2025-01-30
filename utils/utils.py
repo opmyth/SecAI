@@ -6,7 +6,7 @@ def get_calendar_meetings():
     script = '''
     tell application "Calendar"
         set todayDate to current date
-        -- Set start date to beginning of today
+        -- Set start date to beginning of today 
         set startDate to todayDate - (time of todayDate)
         -- Set end date to end of today
         set endDate to startDate + (24 * hours)
@@ -52,7 +52,6 @@ def get_calendar_meetings():
                     meetings.append([time, title])
         
         meetings.sort(key=lambda x: x[0])
-        print(f"Generated meetings: {meetings}")
         return meetings
         
     except Exception as e:
